@@ -1,0 +1,23 @@
+venv: A virtual environment allows to keep, install all library/packages in that project
+
+Python
+Steps: In terminal
+1. python -m venv *name*venv
+2. source *name*venv/Scripts/Activate
+3. deactivate
+
+Jupyter
+Steps: In terminal
+1. python -m venv *name*venv
+2. source *name*venv/Scripts/Activate
+3. pip in stall jupyter
+4. python -m ipykernel install --user --name=*name* --display-name "*some name*"
+5. jupyter notebook // This to start Jupyter Notebook // 
+6. in Juoyter: Select Kernel >> Change Kernel
+
+Reactivate
+source *name*venv/Scripts/Activate
+
+Delete
+deactivate
+go to local disk, delete folder
